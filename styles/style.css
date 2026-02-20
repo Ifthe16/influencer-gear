@@ -1,0 +1,74 @@
+/* google fonts cdn */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* inter font */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* poppins font */
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* manrope font */
+.manrope-font {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.text-primary {
+    color: rgba(58, 58, 58, 1);
+}
+
+.text-secondary {
+    color: black;
+}
+
+.bg-primary {
+    background-color: #E02C6D;
+}
+
+/* navbar styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.nav-brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar>.nav-list .nav-item {
+    list-style: none;
+    margin-left: 34px;
+}
+
+.navbar>.nav-list>.nav-item>.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #E02C6D;
+}
+
+.nav-link>img:hover {
+    transform: scale(1.2);
+}
