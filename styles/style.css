@@ -111,6 +111,20 @@
     }
 }
 
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translate(100px);
+        filter: blur(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
 /* shared styles */
 .display-flex {
     display: flex;
@@ -152,8 +166,20 @@
     color: rgba(224, 44, 109, 0.87);
 }
 
+.text-denary{
+    color: #0A0826;
+}
+
+.text-undenary{
+color: #6C6C6C;
+}
+
 .bg-primary {
     background-color: #E02C6D;
+}
+
+.bg-secondary{
+    background-color: #0A0826;
 }
 
 /* scrollbar styles */
@@ -417,6 +443,52 @@ body {
     color: black;
 }
 
+/* featured products section styles */
+.featured-products-section{
+    max-width: 1110px;
+margin: 0 auto 100px;
+justify-content: space-between;
+align-items: center;
+gap: 96px;
+}
+
+.featured-products-image{
+    width: 100%;
+    border-radius: 7px;
+    animation: cardreveal both;
+animation-timeline: view();
+animation-range: entry 10% cover 30%;
+}
+
+.featured-products-content{
+   animation: slide-in-right both;
+    animation-timeline: view();
+    animation-range: entry 25% cover 40%;
+}
+
+.featured-products-title{
+    font-size: 2.375rem;
+    font-weight: 700;
+    margin: 0px 0px 16px;
+}
+
+.featured-products-description{
+    font-weight: bold;
+    margin: 0px 0px 16px;
+}
+
+.featured-products-btn{
+    width: 155px;
+    padding: 10px 24px;
+    border: none;
+}
+
+.featured-products-btn-link{
+    text-decoration: none;
+    font-size: 700;
+}
+
+
 /* responsive media query for small size devices */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -483,6 +555,21 @@ body {
         gap: 15px;
         margin-bottom: 32px;
     }
+
+    .featured-products-section{
+margin: 0 16px 50px;
+flex-direction: column-reverse;
+gap: 30px;
+text-align: center;
+}
+
+.featured-products-title{
+    font-size: 1.5rem;
+}
+
+.featured-products-description{
+    margin: 0px 0px 30px;
+}
 }
 
 /* responsive media query for medium size devices */
@@ -528,4 +615,13 @@ body {
         gap: 15px;
         margin-bottom: 32px;
     }
+
+     .featured-products-section{
+margin: 0 16px 50px;
+gap: 30px;
+}
+
+.featured-products-title{
+    font-size: 1.4rem;
+}
 }
