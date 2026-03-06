@@ -304,7 +304,7 @@ body {
 
 .hero-content {
     max-width: 570px;
-    animation: slide-in 1s linear normal forwards;
+    animation: slide-in 1.3s linear normal forwards;
 }
 
 .hero-title {
