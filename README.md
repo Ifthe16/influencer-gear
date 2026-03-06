@@ -3,9 +3,10 @@
 A modern, responsive, and visually aesthetic landing page designed for aspiring influencers to find the best gear. This project showcases a curated collection of cameras, microphones, lighting, and other essential equipment for content creation.
 
 ---
+
 ## 🌐 Live Preview & Interface
 
-[👉 Click here to view the live site]()
+👉 [Click here to view the live site](https://ifthe16.github.io/influencer-gear/)
 
 ![Project Preview](assets/images/influencer-gear-web-preview.png)
 
