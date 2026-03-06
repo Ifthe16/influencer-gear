@@ -33,6 +33,8 @@ A modern, responsive, and visually aesthetic landing page designed for aspiring 
 * **FontAwesome:** For social media and UI icons.
 * **JavaScript:** Used for DOM manipulation to make buttons clickable and add basic interactivity.
 
+---
+
 ## 📦 Included Products
 
 | Product | Price | Features |
