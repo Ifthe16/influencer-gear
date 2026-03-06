@@ -25,7 +25,7 @@
 </head>
 
 <body class="poppins-font">
-    <header>
+    <header id="header-id">
         <!-- navbar starts here -->
         <nav class="navbar display-flex">
             <span class="nav-menu"><i class="fa-solid fa-bars"></i></span>
@@ -36,8 +36,7 @@
                         title="Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-primary" href="http://" target="_blank" rel="noopener noreferrer"
-                        title="Products">Products</a>
+                    <a class="nav-link text-primary" href="#popular-collection-id" title="Products">Products</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-primary" href="http://" target="_blank" rel="noopener noreferrer"
@@ -71,9 +70,8 @@
                 <p class="hero-description text-primary">Empower your content creation with high-quality gear. Curated
                     kits and standalone essentials for aspiring and established influencers to level up their
                     production.</p>
-                <button class="hero-btn bg-primary">
-                    <a class="hero-btn-link text-tertiary" href="http://" target="_blank"
-                        rel="noopener noreferrer">Preebook now &nbsp;<i
+                <button class="hero-btn bg-primary" onclick="signup()" title="Preebook now">
+                    <a class="hero-btn-link text-tertiary" href="">Preebook now &nbsp;<i
                             class="fa-solid fa-arrow-down hero-btn-arrow"></i></a>
                 </button>
             </div>
@@ -120,7 +118,7 @@
         </section>
         <!-- sponsor section end -->
         <!-- popular collection section starts here -->
-        <section class="popular-collection-section">
+        <section class="popular-collection-section" id="popular-collection-id">
             <h2 class="popular-collection-title text-primary">Popular Collection</h2>
             <div class="popular-collection-cards-container">
                 <!-- card-01 -->
@@ -319,8 +317,8 @@
                 </div>
             </div>
             <div class="popular-collection-link-container">
-                <a class="popular-collection-link text-nonary" href="http://" target="_blank" rel="noopener noreferrer"
-                    title="See More">See More <i class="fa-solid fa-arrow-right"></i></a>
+                <a class="popular-collection-link text-nonary" href="#header-id" title="See More">See More <i
+                        class="fa-solid fa-arrow-right"></i></a>
             </div>
         </section>
         <!-- popular collection section end -->
@@ -333,9 +331,9 @@
                 <p class="featured-products-description text-undenary">Elevate your production with our curated
                     selection of industry leading tools. Get professional grade cameras and elite lighting for world
                     class content. Everything you need to scale your influence is now in one premium collection.</p>
-                <button class="featured-products-btn bg-primary">
-                    <a class="featured-products-btn-link text-tertiary" href="http://" target="_blank"
-                        rel="noopener noreferrer">Join Now <i class="fa-solid fa-arrow-right"></i></a>
+                <button class="featured-products-btn bg-primary" onclick="signup()">
+                    <a class="featured-products-btn-link text-tertiary" href="">Join Now <i
+                            class="fa-solid fa-arrow-right"></i></a>
                 </button>
             </div>
         </section>
@@ -352,26 +350,34 @@
                 <small class="footer-description text-duodenary manrope-font">All rights reserved</small>
                 <div class="footer-icons-container display-flex">
                     <button class="footer-icon-btn bg-tertiary">
-                        <a class="footer-icon-btn-link text-tertiary" href="http://" target="_blank"
-                            rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="footer-icon-btn-link text-tertiary" href="https://www.instagram.com/shanurpixels/"
+                            target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
                     </button>
                     <button class="footer-icon-btn bg-tertiary">
-                        <a class="footer-icon-btn-link text-tertiary" href="http://" target="_blank"
+                        <a class="footer-icon-btn-link text-tertiary" href="https://dribbble.com/" target="_blank"
                             rel="noopener noreferrer"><i class="fa-brands fa-dribbble"></i></a>
                     </button>
                     <button class="footer-icon-btn bg-tertiary">
-                        <a class="footer-icon-btn-link text-tertiary" href="http://" target="_blank"
+                        <a class="footer-icon-btn-link text-tertiary" href="https://x.com/shanurpixels" target="_blank"
                             rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
                     </button>
                     <button class="footer-icon-btn bg-tertiary">
-                        <a class="footer-icon-btn-link text-tertiary" href="http://" target="_blank"
-                            rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="footer-icon-btn-link text-tertiary" href="https://www.youtube.com/@ifthememeleague"
+                            target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
                     </button>
                 </div>
             </div>
         </div>
     </footer>
     <!-- footer end -->
+    <!-- script starts here -->
+    <script>
+        alert("Welcome to Influencer Gear! Let's find your perfect gear!");
+        function signup() {
+            alert("Don't have an account? Please sign up to get full access!");
+        }
+    </script>
+    <!-- script end -->
 </body>
 
 </html>
