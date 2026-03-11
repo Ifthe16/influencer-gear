@@ -6,7 +6,7 @@ A modern, responsive, and visually aesthetic landing page designed for aspiring 
 
 ## 🌐 Live Preview & Interface
 
-👉 [Click here to view the live site](https://ifthe16.github.io/influencer-gear/)
+👉 [Click here to view the live site](https://ifthedev.github.io/influencer-gear/)
 
 ![Project Preview](assets/images/influencer-gear-web-preview.png)
 
